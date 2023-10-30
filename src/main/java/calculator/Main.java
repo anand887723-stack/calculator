@@ -3,7 +3,7 @@ import java.util.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class Main {
-	private static final Logger logger = LogManager.getLogger(Main.class);
+	// private static final Logger logger = LogManager.getLogger(Main.class);
 	public static void main(String[] args){
 		Scanner reader = new Scanner(System.in);
 		int op, flag=0;
@@ -74,8 +74,8 @@ public class Main {
 		System.out.println("The Result is "+c);
 		System.out.println("");
 
-		logger.info("[SQUARE_ROOT OPERATION] [SUCCESS] " + num);
-        logger.info("[SQUARE_ROOT OPERATION] [RESULT] " + c);
+		// logger.info("[SQUARE_ROOT OPERATION] [SUCCESS] " + num);
+        // logger.info("[SQUARE_ROOT OPERATION] [RESULT] " + c);
 
 		return c;
 	}
@@ -87,8 +87,8 @@ public class Main {
 		System.out.println("The Result is "+c);
 		System.out.println("");
 		
-		logger.info("[FACTORIAL OPERATION] [SUCCESS] " + num);
-        logger.info("[FACTORIAL OPERATION] [RESULT] " + c);
+		// logger.info("[FACTORIAL OPERATION] [SUCCESS] " + num);
+        // logger.info("[FACTORIAL OPERATION] [RESULT] " + c);
 
 		return c;
 	}
@@ -98,8 +98,8 @@ public class Main {
 		System.out.println("The Result is "+ c);
 		System.out.println("");
 
-		logger.info("[LOGARITHM OPERATION] [SUCCESS] " + num);
-        logger.info("[LOGARITHM OPERATION] [RESULT] " + c);
+		// logger.info("[LOGARITHM OPERATION] [SUCCESS] " + num);
+        // logger.info("[LOGARITHM OPERATION] [RESULT] " + c);
 		
 		return c;
 	}
@@ -109,8 +109,8 @@ public class Main {
 		System.out.println("The Result is "+ c);
 		System.out.println("");
 		
-		logger.info("[POWER OPERATION] [SUCCESS] " + num);
-        logger.info("[POWER OPERATION] [RESULT] " + c);
+		// logger.info("[POWER OPERATION] [SUCCESS] " + num);
+        // logger.info("[POWER OPERATION] [RESULT] " + c);
 
 		return c;
 	}
