@@ -10,6 +10,16 @@ public class Main {
 		int op, flag=0;
 		double num, exp;
 		int numm;
+                System.out.println("Welcome to calculator :");
+
+        System.out.println("Choices of Operations:");
+            System.out.println("");
+            System.out.println("1. Square root");
+            System.out.println("2. Factorial");
+            System.out.println("3. Natural Log");
+            System.out.println("4. Power");
+            System.out.println("5. Exit");
+			System.out.println("");
 		System.out.println("------------Calculator--------------");
 		do{
 			System.out.println("Choices of Operations:");
