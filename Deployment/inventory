@@ -1,1 +1,1 @@
-localhost ansible_user = ands403
+localhost ansible_user = localhost
