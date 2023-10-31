@@ -83,7 +83,7 @@ public class Main {
 
 		return c;
 	}
-
+//
 	public static int factorial(int num){
 	    int c = num ;
 		for(int i=num-1; i>=1; i--) c = c*i;
