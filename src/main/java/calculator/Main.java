@@ -45,6 +45,7 @@ public class Main {
 						numm = reader.nextInt();
 						factorial(numm);
 					break;
+					//
 
 					case 3: //Natural Log
 						System.out.println("You choose Natural Log!!");				
