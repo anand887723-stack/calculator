@@ -27,7 +27,8 @@ public class Main {
 			System.out.println("");
 			op = reader.nextInt();
 			if(op==5) flag = 1;
-			else{				
+			else{	
+				//			
 				switch(op){
 					//
 					case 1:  // Square Root
