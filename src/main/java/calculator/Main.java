@@ -35,6 +35,8 @@ public class Main {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						num = reader.nextDouble();
+						
+						
 						squareRoot(num);
 					break;
 
@@ -43,6 +45,7 @@ public class Main {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						numm = reader.nextInt();
+					
 						factorial(numm);
 					break;
 					//
@@ -52,6 +55,7 @@ public class Main {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						num = reader.nextDouble();
+					
 						naturalLog(num);
 					break;
 
@@ -74,6 +78,11 @@ public class Main {
 		}
 //
 	public static double squareRoot(double num){
+
+		if ( num<0){
+			System.out.println("Please enter a positive number");return -1;
+			
+		}
 		double c = Math.sqrt(num);
 		System.out.println("");
 		System.out.println("The Result is "+c);
@@ -86,6 +95,10 @@ public class Main {
 	}
 //
 	public static int factorial(int num){
+		if ( num<0){
+			System.out.println("Please enter a positive number");return -1;
+			
+		}
 	    int c = num ;
 		for(int i=num-1; i>=1; i--) c = c*i;
 		System.out.println("");
@@ -98,6 +111,10 @@ public class Main {
 		return c;
 	}
 	public static double naturalLog(double num){
+		if ( num<0){
+			System.out.println("Please enter a positive number");return Double.NaN;
+			
+		}
 		double c = Math.log(num);	
 		System.out.println("");
 		System.out.println("The Result is "+ c);
