@@ -35,7 +35,7 @@ public class Main {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						num = reader.nextDouble();
-						
+						//
 						
 						squareRoot(num);
 					break;
