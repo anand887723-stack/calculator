@@ -28,6 +28,7 @@ public class Main {
 			op = reader.nextInt();
 			if(op==5) flag = 1;
 			else{	
+				
 				//			
 				switch(op){
 					//
@@ -46,7 +47,7 @@ public class Main {
 						System.out.println("");
 						System.out.print("Enter number: ");
 						numm = reader.nextInt();
-					
+				//	
 						factorial(numm);
 					break;
 					//
