@@ -1,4 +1,4 @@
-INFO] Scanning for projects...
+[INFO] Scanning for projects...
 [INFO] 
 [INFO] -----------------------< calculator:calculator >------------------------
 [INFO] Building calculator 1.0-SNAPSHOT
@@ -42,24 +42,24 @@ Running CalculatorTest
 
 The Result is 120
 
-22:11:55.608 [main] INFO  calculator.Main - [FACTORIAL OPERATION] [SUCCESS] 5
-22:11:55.611 [main] INFO  calculator.Main - [FACTORIAL OPERATION] [RESULT] 120
+10:16:54.321 [main] INFO  calculator.Main - [FACTORIAL OPERATION] [SUCCESS] 5
+10:16:54.326 [main] INFO  calculator.Main - [FACTORIAL OPERATION] [RESULT] 120
 
 The Result is 0.999896315728952
 
-22:11:55.614 [main] INFO  calculator.Main - [LOGARITHM OPERATION] [SUCCESS] 2.718
-22:11:55.614 [main] INFO  calculator.Main - [LOGARITHM OPERATION] [RESULT] 0.999896315728952
+10:16:54.330 [main] INFO  calculator.Main - [LOGARITHM OPERATION] [SUCCESS] 2.718
+10:16:54.331 [main] INFO  calculator.Main - [LOGARITHM OPERATION] [RESULT] 0.999896315728952
 
 The Result is 5.0
 
-22:11:55.615 [main] INFO  calculator.Main - [SQUARE_ROOT OPERATION] [SUCCESS] 25.0
-22:11:55.615 [main] INFO  calculator.Main - [SQUARE_ROOT OPERATION] [RESULT] 5.0
+10:16:54.332 [main] INFO  calculator.Main - [SQUARE_ROOT OPERATION] [SUCCESS] 25.0
+10:16:54.332 [main] INFO  calculator.Main - [SQUARE_ROOT OPERATION] [RESULT] 5.0
 
 The Result is 32.0
 
-22:11:55.616 [main] INFO  calculator.Main - [POWER OPERATION] [SUCCESS] 2.0
-22:11:55.616 [main] INFO  calculator.Main - [POWER OPERATION] [RESULT] 32.0
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.695 sec
+10:16:54.333 [main] INFO  calculator.Main - [POWER OPERATION] [SUCCESS] 2.0
+10:16:54.334 [main] INFO  calculator.Main - [POWER OPERATION] [RESULT] 32.0
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.015 sec
 
 Results :
 
@@ -79,6 +79,6 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.908 s
-[INFO] Finished at: 2023-11-07T22:11:59+05:30
+[INFO] Total time:  7.649 s
+[INFO] Finished at: 2023-11-13T10:16:57+05:30
 [INFO] ------------------------------------------------------------------------

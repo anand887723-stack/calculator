@@ -107,6 +107,7 @@ public class Main {
         logger.info("[LOGARITHM OPERATION] [RESULT] " + c);
 		
 		return c;
+		// 
 	}
 	public static double power(double num, double exp){
 		double c = Math.pow(num,exp);
@@ -121,3 +122,5 @@ public class Main {
 	}
 
 }
+
+//
